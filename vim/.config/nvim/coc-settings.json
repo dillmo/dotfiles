@@ -1,0 +1,22 @@
+{
+  "languageserver": {
+    "elmLS": {
+      "command": "elm-language-server",
+      "filetypes": ["elm"],
+      "rootPatterns": ["elm.json"],
+      "initializationOptions": {
+        "elmAnalyseTrigger": "change"
+      }
+    },
+    "apexLS": {
+      "command": "apexls",
+      "filetypes": ["apex"],
+      "rootPatterns": ["sfdx-project.json"]
+    }
+  },
+  "codeLens.enable": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript"
+  ],
+  "prettier.formatterPriority": 2
+}
